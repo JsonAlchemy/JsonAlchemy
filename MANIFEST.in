@@ -5,9 +5,9 @@ include CONTRIBUTING.md
 include CoC.md
 include SECURITY.md
 include pyproject.toml
-include json-orm/py.typed
+include JsonAlchemy/py.typed
 
-recursive-include json-orm *.py *.pyi *.json
+recursive-include JsonAlchemy *.py *.pyi *.json
 recursive-include tests *.py
 recursive-include docs *.rst *.py *.bat *.txt *.md
 recursive-include examples *.py *.ipynb

@@ -112,7 +112,7 @@ The database is designed as a zero-configuration, ready-to-run solution with a c
 Example Migration Path:
 ```python
 # Development (JSON DB)
-from json-orm import Model, select
+from JsonAlchemy import Model, select
 
 class User(Model):
     id: Optional[int] = None

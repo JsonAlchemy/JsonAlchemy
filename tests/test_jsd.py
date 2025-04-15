@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pytest
 
-from json-orm.storage import JSDFile, JSDError
+from JsonAlchemy.storage import JSDFile, JSDError
 
 
 @pytest.fixture
