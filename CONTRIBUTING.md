@@ -1,13 +1,13 @@
-# Contributing to Json-ORM
+# Contributing to JsonAlchemy
 
-Thank you for your interest in contributing to Json-ORM! This document provides guidelines and instructions for contributing to this project.
+Thank you for your interest in contributing to JsonAlchemy! This document provides guidelines and instructions for contributing to this project.
 
 ## Development Setup
 
 1. Fork and clone the repository:
 ```bash
-git clone https://github.com/yourusername/json-orm.git
-cd json-orm
+git clone https://github.com/yourusername/JsonAlchemy.git
+cd JsonAlchemy
 ```
 
 2. Create a virtual environment and activate it:

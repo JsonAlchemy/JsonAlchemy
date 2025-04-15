@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional, List
-from json-orm import (
+from JsonAlchemy import (
     Model, 
     Field, 
     select, 
