@@ -26,9 +26,6 @@ indent_size = 2
 trim_trailing_whitespace = false
 
 # Documentation
-[docs/**/*.rst]
-indent_style = space
-indent_size = 3
 
 # JSON files
 [*.json]

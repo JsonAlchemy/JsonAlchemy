@@ -1,11 +1,11 @@
 # JsonAlchemy
 
-A zero-configuration, SQLModel-compatible JSON database for rapid development and prototyping.
+A zero-configuration, SQLAlchemy/SQLModel-compatible JSON database for rapid development and prototyping.
 
 ## 🚀 Features
 
 - **Zero Configuration**: Start coding immediately without database setup
-- **SQLModel Compatible**: Same syntax as SQLModel/SQLAlchemy
+- **SQLAlchemy/SQLModel Compatible**: Same syntax as SQLAlchemy/SQLModel
 - **Type Safe**: Full Python type hints and validation
 - **Fast Development**: Perfect for prototypes and MVPs
 - **Easy Migration**: Seamless transition to production databases
@@ -22,13 +22,13 @@ A zero-configuration, SQLModel-compatible JSON database for rapid development an
 ## 📦 Installation
 
 ```bash
-pip install JsonAlchemy
+pip install jsonalchemy
 ```
 
 ## 🏃 Quick Start
 
 ```python
-from JsonAlchemy import Database, Model, Field, select
+from jsonalchemy import Database, Model, Field, select
 from typing import Optional, List
 from datetime import datetime
 
@@ -67,12 +67,6 @@ SQLModel.metadata.create_all(engine)
 # Migrate data
 db.migrate_to_sqlmodel(engine)
 ```
-
-## 📚 Documentation
-
-- [Features](FEATURES.md) - Supported SQL features
-- [Examples](examples.py) - Code examples and patterns
-- [Notes](NOTES.md) - Design notes and considerations
 
 ## 💡 Key Concepts
 
@@ -138,7 +132,7 @@ This repository enforces branch protection:
 - Not for production use
 - Limited to single-process access
 - No advanced SQL features
-- Best for datasets under 100GB
+- Best for datasets under 50GB
 - No concurrent write operations
 
 ## 🤝 Contributing
@@ -157,5 +151,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-- Issues: [GitHub Issues](https://github.com/yourusername/JsonAlchemy/issues)
-- Questions: [GitHub Discussions](https://github.com/yourusername/JsonAlchemy/discussions)
+- Issues: [GitHub Issues](https://github.com/yourusername/jsonalchemy/issues)
+- Questions: [GitHub Discussions](https://github.com/yourusername/jsonalchemy/discussions)

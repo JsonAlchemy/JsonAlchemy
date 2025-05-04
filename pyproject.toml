@@ -4,15 +4,15 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "JsonAlchemy"
-version = "0.1.0"
-description = "A zero-configuration, SQLModel-compatible JSON database for rapid development"
+version = "0.1.2.dev2"
+description = "A zero-configuration, SQLAlchemy/SQLModel-compatible JSON database for rapid development"
 authors = ["Alaamer <ahmedmuhmmed239@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/alaamer12/pyjsondb"
-repository = "https://github.com/alaamer12/pyjsondb"
+homepage = "https://github.com/JsonAlchemy/JsonAlchemy"
+repository = "https://github.com/JsonAlchemy/JsonAlchemy"
 documentation = "https://JsonAlchemy.readthedocs.io/en/latest/"
-keywords = ["database", "json", "orm", "sqlmodel", "rapid-development", "prototyping", "sqlalchemy"]
+keywords = ["database", "json", "orm", "sqlalchemy", "sqlmodel", "rapid-development", "prototyping"]
 classifiers = [
     # Development Status
     "Development Status :: 4 - Beta",

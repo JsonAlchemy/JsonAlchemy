@@ -40,6 +40,7 @@ htmlcov/*
 junit*.xml
 coverage.xml
 .pytest_cache/
+.pypi-token
 
 # Build and docs folder/files
 build/*
